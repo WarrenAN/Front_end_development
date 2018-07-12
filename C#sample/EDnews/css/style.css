@@ -1,0 +1,157 @@
+﻿*,td,li,ul,body {margin:0;padding:0; }
+td,th,table{ border:o;}
+#box{width:1000px;margin:0 auto;}
+#header{width:1000px;height:170px; background-image:url(../images/toppic.jpg);}
+#main{width:1000px;}
+#left{float:left;width:490px;height:300px;}
+#right{float:right;width:500px;}
+.splitDiv{ height:10px; clear:both;}
+.line{ width:1000px; height:1px; background:#000; margin:10px 0;}
+#divLeft,#divMiddle,#divRight{width:320px;height:200px;float:left;}
+#divRight{margin: 10px 10px 10px 0px;  }
+#divMiddle{ margin:10px 10px 10px 0px;}
+#divLeft{ margin:10px 10px 10px 0px;}
+#divLinks{ width:990px; border:1px solid #ccc; padding:5px;}
+#footer{ width:1000px; text-align:center;  background-color:#20B2AA; font-size:14px; }
+#backfooter{  width:100%; text-align:center;  background-color:#20B2AA; font-size:14px; position:fixed; bottom:0px}
+.smallTitle{ text-align:center;}
+#backTop{ position:fixed; right:20px; bottom:15px;height: 154px;}
+#lanMuList{ height:30px; width:1000px; }
+#lanMuList li{ list-style:none; float:left; margin: 0 5px 0px 0px; width:60px; height:40px; line-height:40px;  text-align:center; background-color:  Blue; }
+#lanMuList a{ text-decoration: none; color:White; font-weight:bold;}
+#lanMuList li:hover{ background-color:Yellow;}
+/*下面为showlist界面导航css样式*/
+#showLanmu a:hover{ color:Red;}
+#showLanmu{ height:30px; width:1000px; }
+#showLanmu li{ list-style:none; float:left; margin: 0 5px 0px 0px; width:60px; height:40px; line-height:40px;  text-align:center; background-color:  Blue; }
+#showLanmu a{ text-decoration: none; color:White; font-weight:bold;}
+#showLanmu li:hover{ background-color:Yellow;}
+#showLanmu a:hover{ color:Red;}
+/*下面为搜索框及按钮css样式*/
+#sure,#shownewssure{ float:right; height:35px; width:50px;}
+#Search,#shownewsSearch{ float:right; width:200px; height:30px; }
+
+#QLinks ul li{ list-style-type:none;float:left; height:60px; width:157px; margin:8px 0 0 8px; *display:inline; overflow:hidden;}
+#QLinks ul li img{ width:149px; height:52px; padding:3px; border:1px solid #e6e6e6;}
+
+ /*下面是登陆界面的css样式表*/
+#userlogin{width:150px;height:90px;position:absolute;
+     left:50%;top:50%;
+     border:1px red solid;
+     margin-left:-75px;
+     margin-top:-45px;}
+ 
+ /*下面是查看新闻内容页面的样式表*/
+#newsTitle{width:1000px;text-align:center;font-size:18pt;}
+#newsContent{width:1000px;font-size:12pt;}
+#newsInfo{ width:1000px; font-size:12pt; text-align:center; margin-bottom:10px;}
+
+/*下面是管理页面布局样式表*/
+#adminHeader{ line-height:25px; height:25px; width:1000px; margin-top:5px;}
+#adminMenu{line-height:25px;height:25px;width:1000px;}
+#adminContent{width:1000px;}
+
+/*下面是用户管理界面样式表*/
+#showUser{ width:1000px; margin:0 auto;}
+
+
+/*下面是增加用户样式表*/
+#addUserDiv 
+{
+      width:250px; 
+      position:absolute; 
+      top:50%;
+      left:50%;  
+      text-align:center; 
+      box-shadow: -15px 15px 15px rgba(6, 17, 47, 0.7);
+      opacity: 1;
+      top: 20px;
+      position: relative;
+      width: 300px;
+      height: 400px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      padding: 100px 40px 40px 40px;
+      background: #35394a;
+      /* Old browsers */
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #35394a), color-stop(100%, rgb(0, 0, 0)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, rgb(0, 0, 0) 100%);
+      /* Chrome10+,Safari5.1+ */
+      /* Opera 11.10+ */
+      /* IE10+ */
+      background: linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, rgb(0, 0, 0) 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(53, 57, 74, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */
+  }
+.addUserClass 
+{
+    margin:20px;
+    color:White;height: 46px;
+	outline: none;
+	margin-left: 50px;
+	border: none;
+	background-color:   transparent;
+	line-height: 46px;
+	height: 46px;
+	padding: 0 5px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	position: relative;
+	border: rgba(255,255,255,0.2) 2px solid ;
+}
+.mb2 #back,#submitUser{
+	text-decoration: none;
+	outline: none;
+}
+#back,#submitUser {
+	padding: 15px;
+	margin-left:30px;
+	float:left;
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50px;
+	background:  rgba(0,0,0,0);
+	border:1px solid #75faff;
+	width:100px;
+	color:#75faff;
+}
+
+#addUserName,#addUserPwd,#editUserName,#editUserPwd,#editLanMu,#addLanMuName,#Search,#shownewsSearch
+{
+    height: 40px;
+	outline: none;
+	margin-left: 20px;
+	border: none;
+	background-color:   transparent;
+	line-height: 40px;
+	color: black;
+}
+#addUserHeader{line-height:25px; height:25px; width:1000px; margin:5px auto; border:1px solid #ccc;}
+
+/*下面是编辑用户样式表*/
+#editUserDiv{ width:250px; position:absolute; top:50%;left:50%; margin-left:-155px; margin-top:-200px; 
+              text-align:center; background: rgba(41, 39, 39, 0.46);
+              -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);-moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+              box-shadow: 0px 35px 44px -22px #1f181b;
+              padding: 60px 40px; }
+.addUserClass{ margin:20px;}
+#eidtUserHeader{line-height:25px; height:25px; width:1000px; margin:5px auto; border:1px solid #ccc;}
+
+/*下面是栏目管理界面样式表*/
+#showLanMu{ width:1000px; margin:0 auto;}
+#addLanMuHeader{line-height:25px; height:25px; width:1000px; margin:5px auto; border:1px solid #ccc;}
+
+#editLanMuDiv,#addLanMuDiv,#manageList{width:300px; position:absolute; top:50%;left:50%; margin-left:-155px; margin-top:-200px; 
+              text-align:center; background: rgba(41, 39, 39, 0.46);
+              -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);-moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+              box-shadow: 0px 35px 44px -22px #1f181b;
+              padding: 60px 40px;}
